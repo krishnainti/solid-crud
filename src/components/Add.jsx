@@ -14,7 +14,7 @@ import Loader from "../Atoms/Icons/Loader";
 import Button from "../Atoms/Button";
 
 import { setPackages, packages } from "../store/package";
-import { getIndexOfPackage } from "../services/package";
+import { getIndexOfPackage, findPackageFromList } from "../services/package";
 
 async function fetchPackages(q) {
   const response = await fetch(
