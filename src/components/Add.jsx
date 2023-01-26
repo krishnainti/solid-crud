@@ -109,6 +109,7 @@ const Add = () => {
 
   return (
     <div class="h-full w-1/2 m-auto">
+      <h1 class="flex justify-center font-semibold">Packages</h1>
       <TextInput
         value={search}
         onChange={(e) => setSearch(e.target.value)}
